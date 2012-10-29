@@ -1,0 +1,6 @@
+#!/bin/sh
+EMACS_APP=/Applications/Emacs.app
+EMACS=$EMACS_APP/Contents/MacOS/Emacs
+export EMACS
+exec $EMACS "$@"
+exit 1
